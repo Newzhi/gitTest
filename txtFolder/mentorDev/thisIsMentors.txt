@@ -1,1 +1,7 @@
-假装是老师写的代码
+装是老师写的代码
+8.2修改部分
+假装有个API接口
+public Interface testIn:
+{
+	public virtual function（）；
+}
