@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Test2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public ModelTest mt;
     void Start()
     {
-        Debug.log("666");
+        Debug.Log(mt.name);
     }
 
     // Update is called once per frame
