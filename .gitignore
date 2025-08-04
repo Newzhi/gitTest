@@ -1,0 +1,132 @@
+# Unity项目专用.gitignore文件
+
+# 忽略特定项目文件夹
+newbee/
+
+# Unity项目核心文件夹（这些是Unity自动生成的，不应该提交）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures文件夹（可能很大）
+[Mm]emoryCaptures/
+
+# Unity Hub项目缓存
+.vscode/
+.vs/
+
+# 构建输出文件
+*.apk
+*.aab
+*.app
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.msi
+*.unitypackage
+
+# Unity项目文件（这些是IDE生成的，不应该提交）
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的meta文件（当对应资源被忽略时）
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity崩溃报告文件
+sysinfo.txt
+
+# Crashlytics生成的文件
+crashlytics-build.properties
+
+# 打包的Addressables（这些通常很大）
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 临时自动生成的Android资源
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 大型媒体文件（建议使用Git LFS管理）
+# 3D模型文件
+*.fbx
+*.obj
+*.dae
+*.3ds
+*.dxf
+*.skp
+
+# 纹理文件（如果很大）
+*.tga
+*.tiff
+*.tif
+
+# 音频文件（如果很大）
+*.wav
+*.mp3
+*.ogg
+*.aiff
+*.flac
+
+# 视频文件
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE和编辑器文件
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 注意：大型文件（3D模型、纹理、音频、视频）建议使用Git LFS管理
+# 相关配置请查看.gitattributes文件
+
+# 保留Assets文件夹中的.meta文件（Unity需要这些文件）
+!/[Aa]ssets/**/*.meta
+
+# 忽略Asset Store Tools插件（如果不需要的话）
+# /[Aa]ssets/AssetStoreTools* 
