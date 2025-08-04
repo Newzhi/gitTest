@@ -1,7 +1,7 @@
 # Unity项目专用.gitignore文件
 
 # 忽略特定项目文件夹
-newbee/
+
 
 # Unity项目核心文件夹（这些是Unity自动生成的，不应该提交）
 [Ll]ibrary/
